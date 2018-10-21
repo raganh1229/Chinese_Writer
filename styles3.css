@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	src: url(../Fonts/ERASLGHT.TTF);
+	font-family: eraslight;
+}
+
+@font-face {
+	src: url(../Fonts/Dope_Script.ttf);
+	font-family: dopescript;
+}
+
+@font-face {
+	src: url(../Fonts/Myriad.ttf);
+	font-family: myriad;
+}
+
+/*Header*/
+
+html, body {
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+	font-family:'dopescript';
+	color: white;
+	letter-spacing: 1px;
+}
+
+h2 {
+	margin-bottom: 1.5%;
+	font-family: 'eraslight';
+	font-weight: normal;
+}
+
+h3 {
+	font-family: 'eraslight';
+	font-weight: normal;
+	font-size: 1.0vw;
+}
+
+#Navigation li {
+    display: inline-block;
+	color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+ul {
+	display: block;
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+	margin-right: 43px;
+}
+
+a {
+text-shadow: 2px 2px 8px #030000;
+transition: all .5s ease;
+-moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-webkit-transition: all .5s ease;
+-o-transition: all .5s ease;
+}
+
+a:hover {
+  color: #8F8F8F;
+}
+
+p {
+	font-family: 'myriad';
+	font-size: 18px;
+	text-align: justify;
+}
+
+.Navigation {
+	color: white;
+	text-decoration: none;
+	word-spacing: 20px;
+	font-family: "eraslight";
+	font-size: 150%;
+}
+
+.HeaderBox {
+	background-image: url(../Background_Photos/Shanghai_Header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 275px;
+	width: 100%;
+	margin-bottom: 3%;
+}
+
+.Shanghai {
+    height: auto; 
+    width: auto; 
+	text-align: center;
+	font-size: 800%;
+	margin-left: 15px;
+	padding-top: 30px;
+	font-weight: normal;
+	text-shadow: 5px 4px 60px #030000;
+}
+
+.USED1 {
+	width: 100%;
+	height: auto;
+}
+
+.USED2 {
+	width: 100%;
+	height: auto;
+}
+
+.boxyhead {
+	margin-left: 33%;
+	font-size: 3vw;
+	margin-bottom: 1%;
+}
+
+.text2 {
+	margin-left: 17%;
+	width: 60%;
+	margin-bottom: 1.9%;
+	font-size: 1.4vw;
+	font-weight: normal;
+}
+
+.text1 {
+	width: 1000%;
+	font-size: 1vw;
+	text-align: left;
+}
+
+figure { display: block; position: relative; float: left; overflow: hidden; margin: 0 20px 20px 0; } 
+
+figcaption { position: absolute; background: black; background: rgba(0,0,0,0.75); color: white; padding: 15px; 
+	margin-bottom: 4px; width: 120%;
+	opacity: 0; -webkit-transition: all 0.6s ease; -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; } 
+
+figure:hover 
+
+figcaption { opacity: 1; width: 100%;
+} 
+
+figure:hover:before { opacity: 0; width: 100%; } 
+
+.cap-left:before { bottom: 10px; left: 40px; width: 100%; } 
+.cap-left figcaption { bottom: 0; left: -30%;
+} 
+.cap-left:hover figcaption { left: 0; width: 100%; } 
+
+.cap-right:before { bottom: 10px; right: 10px; } 
+.cap-right figcaption { bottom: 0; right: -30%; } 
+.cap-right:hover figcaption { right: 0; width: 100%;} 
+
+.cap-top:before { top: 10px; left: 10px; width: 100%;} 
+.cap-top figcaption { left: 0; top: -30%; width: 100%;} 
+.cap-top:hover figcaption { top: 0; width: 100%;} 
+
+.cap-bot:before { bottom: 10px; left: 10px; width: 100%;} 
+.cap-bot figcaption { left: 0; bottom: -30%; width: 100%;} 
+.cap-bot:hover figcaption { bottom: 0; width: 100%;}
+
+/*Photos*/
+
+/*Media Queries*/
+
+@media (min-width:300px) and (max-width:775px) {
+
+Navigation li {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+	
+h3 {
+	font-family: 'eraslight';
+	font-weight: normal;
+	width: 80%;
+}
+
+.Navigation {
+	color: white;
+	text-decoration: none;
+	word-spacing: 20px;
+	font-family: "eraslight";
+	font-size: 150%;
+}
+	
+.Shanghai {
+    height: auto; 
+    width: auto; 
+	text-align: center;
+	font-size: 600%;
+	margin-left: 15px;
+	padding-top: 30px;
+	font-weight: normal;
+	text-shadow: 5px 4px 60px #030000;
+}
+	
+.boxyhead {
+	width: 90%;
+	margin-left: 8%;
+	font-size: 8vw;
+	margin-bottom: 1%;
+}
+	
+.text2 {
+	margin-left: 8.2%;
+	width: 80%;
+	margin-bottom: 7%;
+	font-size: 3vw;
+}
+
+}

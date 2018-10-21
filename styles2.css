@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	src: url(../Fonts/ERASLGHT.TTF);
+	font-family: eraslight;
+}
+
+@font-face {
+	src: url(../Fonts/Dope_Script.ttf);
+	font-family: dopescript;
+}
+
+@font-face {
+	src: url(../Fonts/Myriad.ttf);
+	font-family: myriad;
+}
+
+/*Header*/
+
+html, body {
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+	font-family:'dopescript';
+	color: white;
+	letter-spacing: 1px;
+}
+
+h2 {
+	margin-bottom: 1.5%;
+	font-family: 'eraslight';
+	font-weight: normal;
+	line-height: 90%;
+}
+
+h3 {
+	margin-left: .2%;
+	margin-top: 0%;
+	font-family: "Century Gothic";
+	font-weight: normal;
+}
+
+h4 {
+	font-family: "Yu Gothic";
+	font-weight: normal;
+}
+
+#Navigation li {
+    display: inline-block;
+	color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+ul {
+	display: block;
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+	margin-right: 43px;
+}
+
+a {
+text-shadow: 2px 2px 8px #030000;
+transition: all .5s ease;
+-moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-webkit-transition: all .5s ease;
+-o-transition: all .5s ease;
+}
+
+a:hover {
+  color: #8F8F8F;
+}
+
+p {
+	font-family: 'myriad';
+	font-size: 18px;
+	text-align: justify;
+}
+
+.Navigation {
+	color: white;
+	text-decoration: none;
+	word-spacing: 20px;
+	font-family: "eraslight";
+	font-size: 150%;
+}
+
+.HeaderBox {
+	background-image: url(../Background_Photos/Shanghai_Header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 275px;
+	width: 100%;
+}
+
+.Shanghai {
+    height: auto; 
+    width: auto; 
+	text-align: center;
+	font-size: 800%;
+	margin-left: 15px;
+	padding-top: 30px;
+	font-weight: normal;
+	text-shadow: 5px 4px 60px #030000;
+}
+
+/*Blog*/
+
+.StoriesBox {
+	width: 35.5%;
+	margin-left: 32.2%;
+	margin-top: 3%;
+	line-height: 190%;
+}
+
+.StoriesTitle {
+	font-size: 165%;
+}
+
+.Chinese {
+	font-family: "Yu Gothic";
+	font-weight: normal;
+}
+
+.StoriesDate {
+	font-size: 58%;
+}
+
+.Divide {
+	margin-left: 28.3%;
+	font-size: 200%;
+}
+
+hr {
+	width: 35%;
+	margin-bottom: 0%;
+}
+
+.StoriesLogs {
+	margin-left: .5%;
+	width: 65%;
+}
+
+span {
+	font-family: "Yu Gothic";
+}
+
+
+
+/*Pops - EDIT*/
+
+.Articles {
+    align-items: center;
+    margin-top: 2.0%;
+	margin-left: 32.3%;
+	margin-bottom: -1.8%;
+}
+
+.Pop1 {
+width: 26.1%;
+transition: all .3s ease;
+-moz-transition: all .3 ease;
+-ms-transition: all .3s ease;
+-webkit-transition: all .3s ease;
+-o-transition: all .3s ease;
+}
+
+.Pop1:hover {
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
+filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand');
+}
+
+.Pop2 {
+width: 26.1%;
+transition: all .3s ease;
+-moz-transition: all .3 ease;
+-ms-transition: all .3s ease;
+-webkit-transition: all .3s ease;
+-o-transition: all .3s ease;
+}
+
+.Pop2:hover {
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
+filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand');
+}
+
+
+
+
+/*Media Queries*/
+
+@media (min-width:300px) and (max-width:500px) {
+
+Navigation li {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.Navigation {
+	color: white;
+	text-decoration: none;
+	word-spacing: 20px;
+	font-family: "eraslight";
+	font-size: 150%;
+}
+
+	p {
+		font-family: 'myriad';	
+	}
+	
+.Shanghai {
+    height: auto; 
+    width: auto; 
+	text-align: center;
+	font-size: 600%;
+	margin-left: 15px;
+	padding-top: 30px;
+	font-weight: normal;
+	text-shadow: 5px 4px 60px #030000;
+	font-family: "dopescript";
+}
+	
+}
+@media (min-width:300px) and (max-width:650px) {
+
+.StoriesBox {
+	width: 85%;
+	margin-left: 7%;
+	margin-top: 3%;
+	margin-bottom: 0%;
+}	
+	
+h2 {
+	margin-bottom: 3%;
+}
+
+hr {
+	width: 83%;
+	margin-bottom: 0%;
+}
+
+.Divide {
+	margin-left: 28.3%;
+	font-size: 160%;
+}
+	
+}
+
+/*Pops - EDIT*/
+
+@media (min-width:300px) and (max-width:775px) {
+
+.Articles {
+    align-items: center;
+    margin-top: 5%;
+	margin-left: 6.6%;
+	margin-bottom: 4%;
+}
+
+.Pop1 {
+	margin-left: 0.8%;
+	margin-right: 0.8%;
+	width: 44.5%;
+	transition: all .3s ease;
+	-moz-transition: all .3 ease;
+	-ms-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+}
+
+.Pop2 {
+	width: 44.5%;
+	transition: all .3s ease;
+	-moz-transition: all .3 ease;
+	-ms-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+}
+
+}	
